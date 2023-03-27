@@ -10,6 +10,7 @@ import FocusHook from './components/FocusHook';
 import useForm from './components/hooks/useForm';
 import Data from './Data/comments';
 import AgeCounterCheck from './components/AgeCounterCheck';
+import Sandy from './components/Sandy';
 
 export const UserContext = React.createContext();
 
@@ -56,6 +57,7 @@ function App() {
 </form>
       </div>
       <AgeCounterCheck/>
+      <Sandy student="Sandy" ass = {60}  weight={10}/>
     </div>
   );
 }

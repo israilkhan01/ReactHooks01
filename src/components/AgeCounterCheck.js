@@ -18,8 +18,10 @@ class AgeCounterCheck extends React.Component {
         AgeCounterCheck
         <button onClick={()=>this.clickIncrement()}> Click</button>
         <p>Counter : {this.state.counter}</p>
-        //this is not the appropriate way to display the age or handle the age but we will not getloaded
-        any error
+        <span>
+            This is not the appropriate way to display the age or handle the age but we will not getloaded
+            any error
+        </span>
         <p>Age : {this.state.age}</p>
       </div>
     )
